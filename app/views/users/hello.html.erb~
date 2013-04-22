@@ -1,0 +1,25 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#" >my store</a>
+      <ul class="nav">
+        <li><a href="#">Signup</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span2">
+    <ul>
+      <li><%= link_to "Home", home_users_path %></li>
+      <li><%= link_to "Contacts", contact_users_path %></li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Portfolio</a></li>
+    </ul>
+  </div>
+  <div class="span9 hero-unit">
+  Here u can create ur own application and deploy it directly
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="row-fluid">
+  <%= render "shared/left_panel" %>
+  <div class="span10 hero-unit">
+    <% @plans.each do |p| %>
+      <h6>My Plan Title : <%= p.name%>
+      <% if params[:id] == "edit_plan"%>
+        <%= link_to "edit plan", edit_user_path(p) %> /
+
+        <%= link_to 'delete plan', p,
+               :confirm => 'Are you sure?',
+               :method => :delete %>
+
+
+      <% else %>
+        <%= link_to "click here to see details of the plan", user_path(p)%></h6><br><hr>
+      <% end %>
+     <% end %>
+  </div>
+</div>

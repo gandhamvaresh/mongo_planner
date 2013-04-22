@@ -1,0 +1,8 @@
+
+
+<div class="row-fluid">
+  <%= render "shared/left_panel" %>
+  <div class="span9 hero-unit">
+  Here u can create ur own plans and schedules
+  </div>
+</div>

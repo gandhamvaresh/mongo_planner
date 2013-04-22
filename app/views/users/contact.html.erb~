@@ -1,0 +1,18 @@
+<div class="row-fluid">
+  <%= render "shared/left_panel" %>
+       <h3>India Address:</h3>
+  <h6>Raheja It park</h6><br>
+  <h6>Software Unit Layout</h6><br>
+  <h6>Building No:5</h6><br>
+  <h6>Hyderabad</h6><br>
+  <h6>Andhrapradesh</h6><br>
+  <h6>Ph:040-21123456</h6><br>
+
+       <h3>Us Address:</h3>
+  <h6>James Franklin It park</h6><br>
+  <h6>Software and It Units Layout</h6><br>
+  <h6>Building No:119</h6><br>
+  <h6>Washington</h6><br>
+  <h6>United states of America</h6><br>
+  <h6>Ph:0110-21123456</h6><br>
+<div class="span10 hero-unit">

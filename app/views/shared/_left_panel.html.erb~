@@ -1,0 +1,8 @@
+<div class="span2">
+    <ul>
+      <li><%= link_to "Home", home_users_path %></li>
+      <li><%= link_to "Make a plan ", new_user_path %></li>
+      <li><%= link_to "My plans", my_plans_users_path %></li>
+      <li><%= link_to "Edit a plan", my_plans_users_path(:id => "edit_plan") %></li>
+     </ul>
+  </div>
